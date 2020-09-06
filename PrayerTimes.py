@@ -10,6 +10,7 @@ from bidi.algorithm import get_display
 from math import *
 import http.client
 
+#
 root = Tk()
 root.title("Prayer Times")
 root.geometry("1920x1080")
