@@ -231,7 +231,7 @@ def bring_verse(verse):
 			'('+str(json_data['data'][0]['surah']['number'])+'):'+\
 			str(json_data['data'][0]['numberInSurah'])
 	return [verse_a,verse_en,sura]
-
+#
 def ayah():
 	aya = random.randint(1,6237)
 	link = bring_verse(aya)
