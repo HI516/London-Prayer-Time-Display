@@ -17,8 +17,6 @@ root.geometry("1920x1080")
 titlelabel = Label(root, text="Prayer Times (London Unified Timetable)")
 titlelabel.config(font=("Calibri 26 underline"))
 titlelabel.place(relx=0.5, y=25, anchor=CENTER)
-#
-##
 
 
 def get_times():
@@ -258,7 +256,6 @@ def bring_verse(verse):
     return [verse_a, verse_en, sura]
 
 
-#
 def ayah():
     aya = random.randint(1, 6237)
     link = bring_verse(aya)
